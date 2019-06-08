@@ -1,0 +1,24 @@
+{
+  "name": "async-chaos-game-p5",
+  "version": "1.0.0",
+  "description": "Asynchronous JS Chaos Game using p5.js & RxJS",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --mode development",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Wojciech Kasperski",
+  "license": "ISC",
+  "devDependencies": {
+    "webpack-cli": "^3.3.2"
+  },
+  "dependencies": {
+    "@types/p5": "^0.7.2",
+    "p5": "^0.8.0",
+    "rxjs": "^6.5.2",
+    "ts-loader": "^6.0.2",
+    "typescript": "^3.5.1",
+    "webpack": "^4.32.2",
+    "webpack-dev-server": "^3.5.1"
+  }
+}
